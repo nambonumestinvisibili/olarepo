@@ -1,0 +1,170 @@
+OOP L1/1 Dawid Holewa
+
+https://www.bip.nauka.gov.pl/g2/oryginal/2015_04/10aad12094c391f1d1c5ffd5b935058b.pdf
+
+1. System będący przedmiotem wyceny zostanie napisany w języku Java 
+// Implementation-Implementation Laguages
+specific: nie, brakuje chociażby minimalnej wersji Javy
+mierzalny: tak, wystarczy napisać w javie
+osiągalny: tak, nietrudno napisać w javie
+istotny: tak, język implementacji jest ważny chociażby ze względu na ilość programistów piszących w nim
+terminowy: tak
+
+
+2. Odpowiednia wydajność oznacza, że system nie jest uciążliwy dla użytkowników i charakteryzuje się odpowiednio szybką
+reakcją na działania użytkowników – średni czas odświeżania/odbudowy ekranu, po czynności
+wykonanej przez użytkownika, nie może być dłuższy niż 3 sek [...] 
+
+// Performance-ResponseTime
+
+specific: tak, podane dokładne czasy reakcji
+measurable: tak
+achievable: tak, wymagania nie są niemożliwe
+relevant: tak, czas reakcji jest ważny
+time-bound: tak
+
+3 System będzie posiadał ergonomiczny i funkcjonalny panel administracyjny, umożliwiający
+między innymi:
+ --- zarządzanie użytkownikami i grupami użytkowników;
+ --- zarządzanie rolami i grupami ról;
+
+// Functionality-Aesthetics
+
+specific: nie, ergonomiczny nie jest dobrze zdefiniowanym przymiotnikiem (sjp nie posiada nawet definicji) 
+measurable: nie, ergonomiczny nie jest mierzalny przez brak definicji
+achievable: jest osiągalny, jednak problem stoi na granicy wyobrażeń zamawiającego i projektanta
+relevant: tak, interfejs jest ważnym elementem systemu, z niego korzystają użytkownicy
+time-bound: tak
+
+4. System będzie posiadał mechanizm bezpiecznego usuwania danych wrażliwych 
+
+// Design Requirement-Security
+
+specific: nie, jakiego konkretnie mechanizmu oczekujemy?
+measurable: nie przez brak wyżej
+achievable: nie, przez brak dobrej definicji wyżej
+relevant: tak
+time-bound: nie wiemy czego klient chce, więc cięzko stwierdzić
+
+5. System musi posiadać rozwiązania integrujące się z Active Directory w zakresie
+autentykacji/logowania. 
+
+// Design Requirement-Authentication
+
+specific: tak
+measurable: tak
+achievable: tak
+relevant: tak 
+time-bound: tak
+
+6. System musi posiadać „Pomoc” kontekstową oraz interfejs w języku polskim. 
+
+// Functionality-Localisation
+
+specific: w jakich przypadkach "pomoc" kontekstowa ma się pojawiać? czy przy każdym możliwym ruchu użytkownika?
+measurable: nie przez wyżej
+achievable: tak
+relevant: tak
+time-bound: nie przez brak wyżej, należy doprezycoważ
+
+7. System musi umożliwiać jednoczesną pracę minimum 500 Użytkowników. 
+
+//Supportability-Scalability
+
+specific: tak
+measurable: tak
+achievable: tak
+relevant: tak
+time-bound: tak
+
+8. Zamawiający wymaga od Wykonawcy dostarczenia i udostępnienia szkoleń e-learningowych
+na platformie e-learningowej wskazanej przez Zamawiającego 
+
+// Usabililty-Accessibility
+
+specific: doprecyzować czego konkretnie mają dotyczyć szkolenia, których podstron itd.
+measurable: tak, potem są doprecyzowane w dokumencie warunki dobrego sporządzenia szkoleń (ilość godzim, oowiązek wypenienia ankeit)
+achievable: tak
+relevant: tak
+time-bound: tak
+
+Hipotetyczne pytanie: W jakiej wersji Javy ma być napisany system? 
+
+
+
+zadanie 2.
+-1-
+Problem. Wyciągnięcie z bankomatu 50 złotych w bankomacie PKO.
+Opis skrócony: 
+Klient podchodzi do bankomatu i czeka na swoją kolej. Klient wkłada swoją kartę bankomatową
+do bankomatu i jest proszony o podanie PIN-u. Klient podaje PIN. Jeśli PIN nie jest poprawny,
+klient zostaje powiadomony o błędzie i dostaje swoją kartę z powrotem. Powtarza operacje 
+począwszy od włożenia karty bankomatowej. Jeśli trzy razy wpisał błędnie hasło, karta zostaje
+zatrzymana przez bankomat i klient musi udać się do banku w celu rozwiązania problemu. Jeśli jednak
+w którymś momencie klientowi udało się wpisać poprawnie PIN, zostaje przekierowany na widok,
+w którym ma do wyboru listę dostępnych operacji. Klient wybiera opcję "wypłata gotówki".
+Jeśli wybrał inną operację, zostaje przekierowany do innego widoku i musi nacisnąć "Powróć",
+aby wrócić do głównego widoku. Jeśli znalazł się w widoku "wypłacie gotówki", wybiera widoczną na
+ekranę kwotę 50 zł. Jeśli na koncie klienta nie ma 50 zł, to bankomat informuje o niewystarczającej
+ilości środków na koncie. Wtedy klient musi wybrać operację "anuluj transakcję" i cel nie zostaje
+osiągnięty. W przeciwnym wypadku klient zostaje zapytany o potrzebę wydrukowania potwierdzenia,
+otrzymuje 50 zł od bankomatu, swoją kartę bankomatową z powrotem oraz zależnie od wcześniejszego
+wyboru potwierdzenie. Cel osiągnięty.
+
+Opis pełny:
+
+Problem. Wyciągnięcie z bankomatu 50 zł w bankomacie PKO.
+Nazwa: Wyciągnięcie z bankomatu 50 zł w bankomacie PKO.
+Twórca: Ja
+Typ przypadku zastosowania: Ogólny
+Aktorzy: Klient bankomatu (od teraz klient)
+Warunki wstępne: 
+	- Klient posiada konto w banku PKO oraz niezablokowaną kartę bankomatową, która
+umożliwia mu wybieranie pieniędzy z bankomatu
+
+Warunki końcowe:
+	- Otrzymanie 50 zł z bankomatu oraz zmniejszenie salda na koncie klienta o 50 złotych.
+W przypadku niepowodzenia odmowa wydania pieniędzy i być może odmowa wydania karty bankomatowej,
+niezmniejszenie salda.
+
+Główny scenariusz sukcesu:
+1. Klient podchodzi do bankomatu, ustawia się w kolejce.
+2. Gdy nadchodzi jego kolej, podchodzi do bankomatu i wsadza w wyznaczone miejsce swoją kartę
+bankomatową.
+3. Klient zostaje poproszony o PIN, wpisuje go.
+4. Klient zostaje przekierowany do widoku listy operacji, wybiera "wypłata gotówki"
+5. Klient wybiera kwotę 50 zł z listy dostępnych kwot. 
+6. Klient wybiera czy chce otrzymać wydrukowane potwierdzenie.
+7. Klient otrzymuje od bankomatu kartę bankomatową, 50 złotych 
+i zależnie od kroku 6 potwierdzenie transakcji. Jednocześnie jego saldo na koncie zostało 
+zmniejszone o 50 zł. Koniec czynności.
+
+Alternatywne przepływy zdarzeń:
+3b. Klient niepoprawnie wpisał PIN mniej niż 3 razy. Zostaje poproszony ponownie o podanie PINu.
+5a. Klient omyłkowo wybiera inną kwotę niż 50 zł.
+5b. Klient nie ma wystarczających środków na koncie. Zostaje o tym poinformowany.
+Klient anuluje transakcję. 
+
+Wyjątki w przepływach:
+3c. Klient wpisał PIN niepoprawnie po raz 3. Bankomat zatrzymuje kartę i wyświetla informację o
+potrzebie udania się do banku w celu rozwiązania problemu. Czynność zakończona niepowodzeniem.
+5aa. Klient ma wystarczające środki na koncie, idzie do punktu 6 i nie może cofnąć operacji.
+5ab. Klient nie ma wystarczających środków na koncie. Wracamy do punktu 5b 
+
+Dodatkowe wymagania:
+w celu powodzenia transakcji wymagane jest saldo na konice o wartosci >= 50 zł.
+Notatki i kwestie: W dowolnym momencie klient może zrezygnować ze sfinalizowania trasakcji.
+
+-2-
+Problem. Kupno bułki "kajzerki" w sklepie "Żabka"
+Opis skrócony: Klient wchodzi do sklepu, wybiera interesującą go bułkę. Ustawia się w kolejce.
+Gdy nadchodzi jego kolej, podaje liczbę i nazwę bułek, które zamierza kupić. Kasjer nabija na kasę
+zakup, po czym pyta klienta o sposób płatności. Klient może zapłacić gotówką lub kartą. 
+Jeśli płaci gotówką, wyciąga pieniądze, kasjer je przyjmuje, wydaje resztę i paragon i transakcja dobiega końca.
+Jeśli płaci kartą, wyciąga kartę, przykłada ją do terminala, wpisuje w terminalu kod. Jeśli kod się zgadza,
+transakcje zostaje sfinalizowana, kasjer pyta klienta czy potrzebuje potwierdzenie transakcji.
+Zależnie od odpowiedzi klient wychodzi z produktem oraz potwierdzeniem transakcji.
+Jeśli kod się nie zgadza, klient musi ponownie wpisać kod.
+
+
+zadanie 3

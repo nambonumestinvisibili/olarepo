@@ -1,0 +1,28 @@
+//nic xD
+
+//proxy
+podobnie do dekoratora
+jednopoziomowy substytut
+produk przez fabryke
+ma na celu zlozonego sterowania dostepem do zawartosci jakiegos obiektu
+
+
+// adapter
+uzgadnianie niezgodnych interfejsow
+w przypadku gdy klient spodziewa sie jaiegos interfejsu a ma inteerfejs troche innych
+open-closed
+mamy podsystem dostarcza funkcjonalnosci
+implementacja alternatywna
+tylko za pomoca adapterow z implemntacji alternatywnej mozna wyciagac funkcjonalnosci
+
+//most
+SRP + ISP + DIP
+mamy klase ktora narusza SRP - ma dwie odpowiedzialnosci: zwraca liste osob
+i powiadamia
+
+chcemy emailNotifier, smsNotifier, dziedziczac po tej klasie potrzebujemy zaimplementowac
+tez getter
+chcac miec getter z xml/sql pliku, 
+musimy zaimplementowac notifier -\
+a tego nie chcemy!
+

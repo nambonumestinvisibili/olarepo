@@ -1,0 +1,25 @@
+5. pythonowe listy posiadają m.in metody
+pop, append, insert, remove. Wyobraźmy sobie sytuację, gdy klient który
+chciałby skorzystać z list jako stosu. Potrzebne są mu tylko metody
+append i pop. Co więcej, metoda insert(index) i remove(index) bardzo przeszkadzają
+w posiadaniu takiego stosu. stos polegałby na push i pop, 
+ale nie obchodziłyby go zupełnie insert i remove. ISP 
+rozgraniczyłby te interfejsy. Przykładowa refaktoryzacja 
+która skupiałaby się bardziej na ISP niż SRP:
+Klasa S z interfejsem stosu. Druga klasa dziedzicząca po S,
+która dokłada funkcjonalności niewłaściwe dla stosu, ale 
+już właściwe dla listy: insert, remove.
+
+
+6. ISP może się wydawać podobne do SRP, jednak ISP dokłada
+zasadę, by nie polegać na tych elementach interfejsu, 
+które nie są nam potrzebne, z kolei SRP skupia się na zbieraniu
+wszystkich elementów, które będą modyfikowane w tylko
+jednym celu. Przykład z zadania 5 dobrze obrazuje tę sytaucję.
+SRP nie rozgraniczyłoby interfejsu: wszystkie metody 
+ze sobą współpracują i jeśli byłyby modyfikowane, to w jednym celu.
+Z kolei ISP rozdzieliłby te interfejsy w przypadku, gdyby klient
+potrzebował używać listy tylko jako stosu. ISP skupia się bardziej
+na tym, jak interfejs jest konsumowany.
+
+7. Zadanie 7 znajduje się w zadaniu 2.

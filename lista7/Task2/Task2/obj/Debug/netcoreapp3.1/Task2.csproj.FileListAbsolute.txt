@@ -1,0 +1,13 @@
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\bin\Debug\netcoreapp3.1\Task2.exe
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\bin\Debug\netcoreapp3.1\Task2.deps.json
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\bin\Debug\netcoreapp3.1\Task2.runtimeconfig.json
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\bin\Debug\netcoreapp3.1\Task2.runtimeconfig.dev.json
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\bin\Debug\netcoreapp3.1\Task2.dll
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\bin\Debug\netcoreapp3.1\Task2.pdb
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\obj\Debug\netcoreapp3.1\Task2.csprojAssemblyReference.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\obj\Debug\netcoreapp3.1\Task2.AssemblyInfoInputs.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\obj\Debug\netcoreapp3.1\Task2.AssemblyInfo.cs
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\obj\Debug\netcoreapp3.1\Task2.csproj.CoreCompileInputs.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\obj\Debug\netcoreapp3.1\Task2.dll
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\obj\Debug\netcoreapp3.1\Task2.pdb
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task2\Task2\obj\Debug\netcoreapp3.1\Task2.genruntimeconfig.cache

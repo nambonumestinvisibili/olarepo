@@ -1,0 +1,13 @@
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista5\Lista5DawidHolewa\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache

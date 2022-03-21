@@ -1,0 +1,33 @@
+//fasada
+
+zbudowanie orkiestracji
+przeproawdzanie jakich konkretnych metod instrukcji wywolan z konkretnymi parametrami
+z innych obiektow
+w takim przypadku w jakim sie najczesciej takie miejsca pojawiaja
+np:
+fasada mogalby byc wtgedy gdy mamy w sst
+a().b().c().d().e()... dogrzebywanie się
+zastąpmy to fasadą 
+gdzie mamy abcde() 
+
+
+//interfejs do odczytu
+pewien problem moze wsytapic, gdy twierdzimy ze mamy read Only,
+a tak naprawde to wychodzi na to ze jak zwrocimy List<Data>, to klient moze sobie cos jeszcze
+dodacc. bardzo czepialskie, ale got the point
+wtedy w std jest IEnumerable<> ktory nie pozwala na dodawanie nowych elementow
+
+//flyweight
+pewnego rodzaju fabryka
+różnica: zbliża do object pool (fabryka, gdzie mamy skonczony zbior obiektow, kosztowne tworzenie)
+        cel : ochrona pamięci!!! nie ochrona zasobów 
+        powód: albo tworzone obiekty są naprawde duze
+        albo bardzo kosztowne w tworzeniu
+        kreacja wielu obiektow moze wyczerpac zasoby
+        albo obiektow nalezy wyprodukowac bardzo bardzo duzo
+
+proponuje by sie zastanowic czy tworzone z fabryki obiekty nie maja jakiejs wspolnej czesci interfejsu,
+ktore mozna by scalic do jednej instancji
+
+stan zewnetrzny stan niekontrolowany przez obieekt tylko przez jego klienta
+

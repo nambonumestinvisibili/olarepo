@@ -1,0 +1,13 @@
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\bin\Debug\netcoreapp3.1\Lista4DawidHolewa.exe
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\bin\Debug\netcoreapp3.1\Lista4DawidHolewa.deps.json
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\bin\Debug\netcoreapp3.1\Lista4DawidHolewa.runtimeconfig.json
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\bin\Debug\netcoreapp3.1\Lista4DawidHolewa.runtimeconfig.dev.json
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\bin\Debug\netcoreapp3.1\Lista4DawidHolewa.dll
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\bin\Debug\netcoreapp3.1\Lista4DawidHolewa.pdb
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\obj\Debug\netcoreapp3.1\Lista4DawidHolewa.csprojAssemblyReference.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\obj\Debug\netcoreapp3.1\Lista4DawidHolewa.AssemblyInfoInputs.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\obj\Debug\netcoreapp3.1\Lista4DawidHolewa.AssemblyInfo.cs
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\obj\Debug\netcoreapp3.1\Lista4DawidHolewa.csproj.CoreCompileInputs.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\obj\Debug\netcoreapp3.1\Lista4DawidHolewa.dll
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\obj\Debug\netcoreapp3.1\Lista4DawidHolewa.pdb
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista4\Lista4DawidHolewa\Lista4DawidHolewa\obj\Debug\netcoreapp3.1\Lista4DawidHolewa.genruntimeconfig.cache

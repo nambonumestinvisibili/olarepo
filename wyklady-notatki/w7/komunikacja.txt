@@ -1,0 +1,73 @@
+referencje do kazdych innych klas - slabenadmierne zaleznosci
+inne kompilaty - trudne
+
+Mediator  - zna wszystkich, ma do kazdego referencje 
+zysk - gdy duzo uczestnikow koleboracji
+referencji: z (n po 2) do n
+bardzo czesto
+wada: referencje silnie otypowane do konkretow nie implementacji! :o 
+
+zaleznosc dwukierunkowa
+mediator - czesto <form>, jego kolegami sa <inputy> (nie html)
+budowanie aplikacji okienkowych
+
+
+
+Observer
+
+kaze wszystkim uczestnikom kolaboracji implementowac jeden interfejs
+nie zaklada komunikacji pomiedzy kolegami 
+wystawianie powiadomien o zmiane stanu przez ten obiiekt ktory jest obserwowany
+obiekt obserwowany ma wiele referencji do obiektow ktore sa zainteresowane
+obserwowaniem jego stanu
+
+mediator byl tylko koordynatorem
+tu: jeden obiekt zmienia swoj stan i o tej zmiane chce poinformowac inne zaintersowane 
+
+koordynacja miedzy roznymi formularzami, ma otwartych wiele widokow
+jak jest duzo observable to juz sie robi ciezej, zbyt duzo zaleznosci
+
+przydatne: zdarzenie w kontrolce (przycisk) i sluchacze
+
+
+
+Event Aggregator
+kazdy widok chce powiadamiac kazdy inny widok - stosujemy wszedzie observer - niefajnie
+jak uogolnic observatora
+tuuuuuuurbo wazny
+
+mamy hub
+mamy wiele klas - nosnikow pewnych powiadomien
+niedoswiadczenie programisci mysla mediatorem
+
+
+
+//memento zapamietuje i odzyskuje stan obiektu
+
+undo/redo mechanizm
+kolejne pamiątki to delta gdy są duże obiekty i ich stany
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\bin\Debug\netcoreapp3.1\Task1.exe
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\bin\Debug\netcoreapp3.1\Task1.deps.json
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\bin\Debug\netcoreapp3.1\Task1.runtimeconfig.json
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\bin\Debug\netcoreapp3.1\Task1.runtimeconfig.dev.json
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\bin\Debug\netcoreapp3.1\Task1.dll
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\bin\Debug\netcoreapp3.1\Task1.pdb
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\obj\Debug\netcoreapp3.1\Task1.csprojAssemblyReference.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\obj\Debug\netcoreapp3.1\Task1.AssemblyInfoInputs.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\obj\Debug\netcoreapp3.1\Task1.AssemblyInfo.cs
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\obj\Debug\netcoreapp3.1\Task1.csproj.CoreCompileInputs.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\obj\Debug\netcoreapp3.1\Task1.dll
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\obj\Debug\netcoreapp3.1\Task1.pdb
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\obj\Debug\netcoreapp3.1\Task1.genruntimeconfig.cache
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\obj\Debug\netcoreapp3.1\Task1.App.resources
+D:\University-v4\Projektowanie Obiektowe Oprogramowania\lista7\Task1\Task1\obj\Debug\netcoreapp3.1\Task1.csproj.GenerateResource.cache
