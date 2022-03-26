@@ -1,0 +1,83 @@
+//static cursor - accords to data in time of creating the cursor
+so any changes made after creation will not be reflected in the cursor
+
+//dynamic cursor - the opposite - it reflects the changes.
+
+
+//task 1. show dbs
+
+//task 2. Book has nested resources
+
+example of inserted:
+
+
+db.Books.insert({"Title":"veery interesting book","Author":"Shakespeare","ReleaseYear":2022,"Price":50,"WasBeenBorrowedInPreviousMonth":0})
+
+//task3
+
+
+db.runCommand( { collMod: "Books",
+   validator: { $jsonSchema: {
+      bsonType: "object",
+      required: [ "Title", "Author", "Price" ],
+      properties: {
+         Title: {
+            bsonType: "string",
+            description: "must be a string and is required"
+         },
+         Author: {
+            bsonType : "string",
+            description: "must be a string and is required"
+         },
+         ReleaseYear: {
+            bsonType: "number",
+         },
+         Price : {
+            bsonType: "number",
+            minimum: 0
+         },
+         WasBeenBorrowedInPreviousMonth: {
+            bsonType: "number",
+            enum : [0, 1]
+         },
+         Specimen: {
+             bsonType: "array"
+         }
+      }
+   } },
+   validationLevel: "moderate",
+   validationAction: "warn"
+} )
+
+
+
+
+//inserted:
+db.Books.insert({"Title":"An intereting book 2","Author":"Shakespeare","ReleaseYear":2022,"Price":50,"WasBeenBorrowedInPreviousMonth":0})
+//wont be inserted:
+db.Books.insert({"Title":"An intereting book 2"})
+
+
+//Task4
+
+//all
+db.Books.find().pretty() 
+//sorted by releaseYear 
+db.Books.find().sort({ReleaseYear : 1 }).pretty()
+//limited to 2 items at all times, skipped first item
+//arg of skip is i*limit=2, page number is i  
+db.Books.find().limit(2).skip(1).pretty()
+
+db.Readers.aggregate([
+   {
+      $project: {
+         someData: {
+            $filter: {
+               input: "$someData",
+               as: "item",
+               cond: { $gte: [ "$$item.qty", 4 ] }
+            }
+         }
+      }
+   }
+])

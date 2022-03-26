@@ -1,0 +1,16 @@
+1. show dbs
+
+2. Book has nested resources
+
+example of inserted:
+db.Books.insert({
+	Title: "someTitle",
+	ReleaseYear: 2020,
+	Specimen : [
+		{
+			specimenId: new ObjectId("someIdGeneratedPreviously")
+		},
+		{
+			specimenid: new ObjectId("someotherId")
+		}
+	]

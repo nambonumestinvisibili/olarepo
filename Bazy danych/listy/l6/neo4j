@@ -1,0 +1,43 @@
+1. all movies
+Match (m:Movie) RETURN m 
+
+
+2.
+- 
+Create (p: Person {name: 'me'}) return p
+Create (p: Person {name: 'you'}) return p
+Create (m: Movie {title: 'htgawm'}) return m
+Create (m: Movie {title: 'htgawm2'}) return m
+-
+match (m:Movie {title: "htgawm"}) SET m.summary = "SOME SUMMARY"
+match (m:Movie {title: "htgawm"}) SET m.tagline = "SOME tagline"
+-
+match (m:Movie {title: "htgawm"}), (p:Person {name: "me"}) Create (p)-[a:ACTED_IN]->(m) return m,p
+match (m:Movie {title: "htgawm"}), (p:Person {name: "you"}) Create (p)-[a:ACTED_IN]->(m) return m,p
+-
+match (m:Movie {title: "htgawm"}) SET m.BirtYear = 2001
+-
+match (m:Movie {title: "htgawm"})-[a:ACTED_IN]-(p:Person {name:"me"}) DELETE a return p,a,m
+check it:
+match (m:Movie {title: "htgawm"}), (p:Person {name:"me"})  return p,m
+
+3.
+- return the movies where person A acted in,
+
+Match (p:Person {name: 'Nathan Lane'})-[a:ACTED_IN]-(m:Movie)  RETURN m
+
+- return the movies where person A was both the producer and the director,
+
+Match (m:Movie)-[a:ACTED_IN]-(p:Person)-[d:DIRECTED]-(m:Movie) RETURN m,p
+
+- return actors who didn’t play in any movie,
+
+match (p:Person) where SIZE((p)-[:ACTED_IN]->()) = 0 return p
+
+- return actors who played in more than 3 movies,
+
+match (p:Person) where SIZE((p)-[:ACTED_IN]->()) > 3 return p
+
+- return movies with the larger number of actors.
+
+match (m:Movie) return m order by SIZE((m)<-[:ACTED_IN]-(:Person)) desc limit 5

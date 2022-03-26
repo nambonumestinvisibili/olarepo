@@ -1,0 +1,8 @@
+dawid_holewa@hotmail.com
+hasło: chyba ret
+
+
+nowy serwer SQL:
+nazwa serwera: database-course.database.windows.net
+admin: id: chacqq
+pwd: Retikulum10
